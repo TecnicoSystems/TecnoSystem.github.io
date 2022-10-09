@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Neo Tech</title>
+</head>
+<body background="imag/Fondo.png"> 
+<center>
+    <table bgcolor="white" border="2" style="width: 100%;">
+        <td><center>Proyecto</center></td>
+        <td><center>Descripción</center></td>
+        <tr></tr>
+        <td><a href="Danny/CV-Daniel.html"><font color="black">Daniel David Arboleda Valencia</font></a></td>
+        <td>El objetivo de nuestro proyecto es suplir las necesidades que tienen clientes y vendedores a la hora de hacer la compra producto online, garantizando una mayor seguridad a la hora de hacer este canje proyecto; donde los usuarios puedan tener un seguimiento de todos</td>
+        <tr></tr>
+        <td><a href="Danny/CV-Anwar.html"><font color="black">Anwar Joseph Palacios</font></a></td>
+        <td>sus movimientos monetarios en la red sin tener complicaciones o hacer cuentas, que puedan permitirse abonar o retirar dinero y todos estas acciones tengan un registro en nuestra base de datos en la que usuario podrá revisar sus acciones desde su propio perfil,</td>	
+         <tr></tr>
+        <td><a href="Danny/CV-Alex.html"><font color="black">Alex Cordova</font></a></td>
+        <td>fue organizado y montado en el software <b><u>HTML, CSS y JavaScrip.</u></b> Este software sirve para recortar procesor del cliente y el vendedorya que el cliente puede monitonear lo que pasa con su pedido cada una de las etapa.</td>
+</table>
+</center>
+	<nav>
+		<ul class="menu-horizontal">
+			<li><a href="#">Crisis del Software</a>
+				<ul class="menu-vertical">
+                <li><a target=_blank href="Crisis del Software/Introducción.html">Indroducción</a></li>
+                <li><a target=_blank href="Crisis del Software/Razones.html">Razones</a></li>
+				<li><a target=_blank href="Crisis del Software/historia.html">Historia</a></li>
+            </ul>
+		</li>
+			<li><a href="#">Codigo Etico</a>
+                <ul class="menu-vertical"> el
+            <li><a target=_blank href="Codigo Etico/Social.html">Codigo Etico Sociedad</a></li>
+            <li><a target=_blank href="Codigo Etico/Cliente.html">Codigo Etico Cliente</a></li>
+            <li><a target=_blank href="Codigo Etico/Personal.html">Codigo Etico Personal</a></li>
+			</ul>
+		</li>
+			<li><a href="#">Mi Proyecto</a>
+                <ul class="menu-vertical">
+            <li><a target=_blank href="Mi proyecto/Funcionales.html">Funcionales</a></li>
+            <li><a target=_blank href="Mi proyecto/No Funcionales.html">No Funcionales</a></li>
+        </ul>
+    </li>
+        <ul class="menu-horizontal">
+            <li><a target=_blank href="Requisitos/Historial de versiones.html">Requisito</a>
+			</ul>
+		</li>
+        <ul class="menu-horizontal">
+            <li><a target=_blank href="Cronogram/Cronograma-Requisitos.html">Cronograma</a>
+            </ul>
+	</nav>
+<div class="resolucion">
+        <div class="desktop"></div>
+        <div class="tablet"></div>
+        <div class="movil"></div>
+    </div>
+</body>
+</html>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "open sans";
+    }
+    nav{
+        max-width: 9000px;
+        margin: auto;
+        background-color: black;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .menu-horizontal{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu-horizontal > li > a{
+        display: green;
+        padding: 15px 20px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu-horizontal > li:hover{
+        background-color: red;
+    }
+    .menu-vertical{
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: rgba(0, 0, 0, .5);
+    }
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: green;
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+      }
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+</style>
+
